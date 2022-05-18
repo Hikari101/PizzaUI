@@ -1,0 +1,222 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.deli,.hotItem h1{
+    font-family: 'Lora', serif;
+}
+.pizzaText{
+    line-height: 35px !important;
+    letter-spacing: 15px !important;
+    font-weight: 100%;
+}
+.enjoyText{
+    font-family: 'Libre Baskerville', serif !important;
+}
+.houseText{
+    font-size: 13px !important;
+    line-height: 10px  !important;
+    letter-spacing: 4px !important;
+    font-weight: 400 !important;
+}
+.pizzaText, .houseText, .card-title,.order-title, .specialOffer,.food-title, .deli-no, h3, .footerText{
+    color: #FF0F00 !important;
+}
+.card-title{
+    font-weight: 100% !important;
+    line-height: 0% !important;
+}
+.orderBtn{
+    background-color: #FF0F00 !important;
+}
+nav li a{
+    font-size: 18px ;
+    font-weight: 500;
+}
+.hotItem, .spOrder{
+    background-color: #808080;
+}
+
+body,.card{
+    background-color: #F2C340 !important;
+}
+.card{
+    border-radius: 50px !important;
+}
+.card p{
+    line-height: 20px !important;
+}
+
+.bikeBox{
+    top: 38% !important;
+}
+.display-1{
+    font-size: 135px !important;
+}
+header{
+    height: 600%;
+}
+h6{
+    width: 80%;
+}
+.lead{
+    font-size: 15px;
+}
+.hotItem h1{
+    font-family: Lora;
+}
+input[type="radio"] {
+    appearance: none;
+    background-color: transparent;
+    margin: 0;
+    font: inherit;
+    width: 2px;
+    height: 29px;
+    border: 0.15em solid #E5E5E5;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+  
+  }
+  input[type="radio"]::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    background-color: #E5E5E5;
+}
+  
+  input[type="radio"]:checked::before {
+    transform: scale(1);
+  }
+  
+  .form-control + .form-control {
+    margin-top: 1em;
+  }
+  label, .order-title{
+      font-size: 25px;
+  }
+  .numberText{
+      font-family: sans-serif;
+  }
+  .minus{
+      width: 35px;
+      height: 35px;
+      line-height: 35px;
+      border: 1px solid #E5E5E5;
+  }
+  .plus{
+      line-height: 32px;
+  }
+  .oneText{
+      width: 75px;
+      height: 35px;
+      line-height: 35px;
+      border: 1px solid #E5E5E5;
+  }
+  .spOrder{
+      font-family: poppins;
+  }
+  .spOrder h4{
+      font-size: 25px;
+  }
+   .drinkContactBox{
+      width: 50px;
+      height: 50px;
+      background-color: #961500;
+      border-radius: 50%;
+  }
+  .ph{
+      width: 16px;
+  }
+  .env{
+      width: 60px;
+  }
+  .loc{
+      font-size: 35px;
+      margin-left: 8px;
+  }
+  hr{
+      height: 2px  !important;
+  }
+  footer h1, .thank{
+      text-shadow: 0px .5px black;
+  }
+  .emailBg{
+      background-color: #E5E5E5;
+  }
+.thank{
+      text-shadow: 0px 1px black;
+  }
+  .ourStory{
+      text-shadow: 0px .1px black;
+  }
+  /* for xl pepsi photo */
+  @media screen and (min-width:1200px){
+    .blue, .color,.allDrink, .normal, .blueRight, .colorRight, .normalRight{
+        position: relative;
+    }
+    .blue{
+        left: 60%;
+    }
+    .color{
+        left: 35% !important;
+        top: 100px !important;
+    }
+    .normal{
+        left: 30% !important;
+        top: 30% !important;
+    }
+    .allDrink{
+        top: -28% !important;
+        left: 10% !important;
+    }
+    .blueRight{
+        left: -15% !important;
+        top: 13px !important;
+    }
+    .colorRight{
+        left: -54%  !important;
+        top: 35% !important;
+    }
+    .normalRight{
+        left: -111% !important;
+        top: 30% !important;
+    }
+   
+  }
+ /* for lg free food pepsi photo*/
+  @media screen and (min-width:992px) {
+    .blue, .color,.allDrink, .normal, .blueRight, .colorRight, .normalRight{
+        position: relative;
+    }
+    .blue{
+        top: 10px;
+        left: 150px;
+    }
+    .color{
+        top: 90px;
+        left: 85px;
+    }
+    .allDrink{
+        top: -29% !important;
+        left: 12% !important;
+    }
+    .normal{
+        top: -6px;
+        left: 230px;
+    }
+    .colorRight{
+        top: 88px;
+        left: -140px;
+    }
+    .blueRight{
+        top: 8px;
+        left: -45px;
+    }
+    .normalRight{
+        top:-8px;
+        left: -130px;
+    }
+}
